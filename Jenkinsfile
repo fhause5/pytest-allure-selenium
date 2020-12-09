@@ -57,5 +57,5 @@ def notifySlack(String buildStatus) {
     } else {
         color = '#FF9FA1'
     }
-    slackSend (color: color, message: message, channel: 'v2_frontend' )
+    //slackSend (color: color, message: message, channel: 'v2_frontend' )
 }
