@@ -18,3 +18,12 @@ pytest -v -s --alluredir=/reports operations/test_login.py
 ```
 docker run -v /home/devops/WORKDIR/pytest-allure-selenium/reports:/reports pytesting:1
 ```
+
+
+### Find elements 
+
+```
+console
+document.getElementsByName('LoginUserName')
+
+```
